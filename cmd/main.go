@@ -3,6 +3,7 @@ package main
 import (
 	"app/api"
 	"app/config"
+	consoleinput "app/consoleInput"
 	"app/storage/postgresql"
 	"fmt"
 	"log"
@@ -11,6 +12,9 @@ import (
 )
 
 func main() {
+
+	consoleinput.ConsoleInput()
+
 	cfg := config.Load()
 
 	store, err := postgresql.NewConnectPostgresql(&cfg)
@@ -26,11 +30,18 @@ func main() {
 
 	api.NewApi(r, &cfg, store)
 
-	fmt.Println("Server runnung on port", cfg.PostgresHost+cfg.ServerPort)
-	err = r.Run(cfg.ServerHost + cfg.ServerPort)
-	if err != nil {
-		log.Panic("Error listening server: ")
-		return
-	}
+	go func() {
+
+		fmt.Println("Server runnung on port", cfg.PostgresHost+cfg.ServerPort)
+		err = r.Run(cfg.ServerHost + cfg.ServerPort)
+		if err != nil {
+			log.Panic("Error listening server: ")
+			return
+		}
+	}()
+
+	consoleinput.ConsoleOutput()
+	consoleinput.ConsoleOutput()
+	consoleinput.ConsoleOutput()
 
 }

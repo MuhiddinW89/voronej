@@ -13,4 +13,5 @@ func NewApi(r *gin.Engine, cfg *config.Config, store storage.StorageI) {
 
 	// product api
 	r.POST("/product", handler.CreateProduct)
+	r.GET("/product/:id", handler.GetByIdProduct)
 }

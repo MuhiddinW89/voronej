@@ -1,7 +1,6 @@
 CREATE TABLE product (
     product_id SERIAL PRIMARY KEY,
     product_name VARCHAR(255) NOT NULL,
-    category VARCHAR(50),
     price DECIMAL(10, 2) NOT NULL
 );
 
@@ -15,6 +14,7 @@ CREATE TABLE productShelf (
     product_id INT NOT NULL,
     shelf_id INT NOT NULL,
     is_main BOOLEAN NOT NULL DEFAULT FALSE,
+    quantity INT NOT NULL,      
     FOREIGN KEY (product_id) REFERENCES product(product_id),
     FOREIGN KEY (shelf_id) REFERENCES shelf(shelf_id)
 );

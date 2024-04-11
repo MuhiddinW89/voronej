@@ -26,7 +26,6 @@ func (p *productRepo) Create(ctx context.Context, req *models.CreateProduct) (in
 	query = `
 		INSERT INTO product(
 			product_name,
-			category,
 			price
 		)
 		VALUES (
@@ -37,7 +36,6 @@ func (p *productRepo) Create(ctx context.Context, req *models.CreateProduct) (in
 
 	err := p.db.QueryRow(ctx, query,
 		req.ProductName,
-		req.Category,
 		req.Price,
 	).Scan(&id)
 
@@ -58,7 +56,6 @@ func (p *productRepo) GetById(ctx context.Context, req *models.ProductPrimaryKey
 		SELECT
 			p.product_id,
 			p.product_name,
-			p.category,
 			p.price
 		FROM product AS p	
 		WHERE product_id = $1
@@ -66,7 +63,6 @@ func (p *productRepo) GetById(ctx context.Context, req *models.ProductPrimaryKey
 	err := p.db.QueryRow(ctx, query, req.ProductId).Scan(
 		&product.ProductId,
 		&product.ProductName,
-		&product.Category,
 		&product.Price,
 	)
 	if err != nil {

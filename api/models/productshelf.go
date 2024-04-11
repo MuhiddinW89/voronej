@@ -7,6 +7,7 @@ type ProductShelf struct {
 	ShelfId        int      `json:"shelf_id"`
 	ShelfData      *Shelf   `json:"shelf_data"`
 	IsMain         bool     `json:"is_main"`
+	Quantity       int      `json:"quantity"`
 }
 
 type ProductShelfPrimaryKey struct {
@@ -20,8 +21,9 @@ type CreateProductShelf struct {
 }
 
 type UpdateProductShelf struct {
-	ProductShelfId int      `json:"productshelf_id"`
-	ProductId      int      `json:"product_id"`
-	ShelfId        int      `json:"shelf_id"`
-	IsMain         bool     `json:"is_main"`
+	ProductShelfId int  `json:"productshelf_id"`
+	ProductId      int  `json:"product_id"`
+	ShelfId        int  `json:"shelf_id"`
+	IsMain         bool `json:"is_main"`
+	Quantity       int  `json:"quantity"`
 }

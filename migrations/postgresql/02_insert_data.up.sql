@@ -1,113 +1,144 @@
-INSERT INTO product (product_name, category, price) VALUES('Ноутбук', 'Электроника', 400);
-INSERT INTO product (product_name, category, price) VALUES('Телевизор', 'Электроника', 250);
-INSERT INTO product (product_name, category, price) VALUES('Телефон', 'Электроника', 300);
-INSERT INTO product (product_name, category, price) VALUES('Системный блок', 'Электроника', 1000);
-INSERT INTO product (product_name, category, price) VALUES('Часы', 'Электроника', 60);
-INSERT INTO product (product_name, category, price) VALUES('Микрофон', 'Электроника', 20);
 
-INSERT INTO product (product_name, category, price) VALUES ('Наушники', 'Электроника', 80);
-INSERT INTO product (product_name, category, price) VALUES ('Портативная зарядка', 'Электроника', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Фитнес-трекер', 'Электроника', 120);
-INSERT INTO product (product_name, category, price) VALUES ('USB флешка', 'Электроника', 25);
-INSERT INTO product (product_name, category, price) VALUES ('Клавиатура', 'Электроника', 70);
-INSERT INTO product (product_name, category, price) VALUES ('Мышь', 'Электроника', 40);
-INSERT INTO product (product_name, category, price) VALUES ('Wi-Fi маршрутизатор', 'Электроника', 90);
-INSERT INTO product (product_name, category, price) VALUES ('Жесткий диск SSD', 'Электроника', 150);
-INSERT INTO product (product_name, category, price) VALUES ('Компьютерная мышь', 'Электроника', 30);
-INSERT INTO product (product_name, category, price) VALUES ('Bluetooth колонка', 'Электроника', 70);
-INSERT INTO product (product_name, category, price) VALUES ('Принтер', 'Электроника', 200);
-INSERT INTO product (product_name, category, price) VALUES ('HDMI кабель', 'Электроника', 15);
-INSERT INTO product (product_name, category, price) VALUES ('Web-камера', 'Электроника', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Гарнитура', 'Электроника', 90);
-INSERT INTO product (product_name, category, price) VALUES ('Мышка для гейминга', 'Электроника', 100);
-INSERT INTO product (product_name, category, price) VALUES ('Термометр для кухни', 'Электроника', 20);
-INSERT INTO product (product_name, category, price) VALUES ('Карта памяти SD', 'Электроника', 35);
-INSERT INTO product (product_name, category, price) VALUES ('Наушники с микрофоном', 'Электроника', 60);
-INSERT INTO product (product_name, category, price) VALUES ('Игровая консоль', 'Электроника', 300);
-INSERT INTO product (product_name, category, price) VALUES ('Компьютерный монитор', 'Электроника', 180);
+-- Products
 
-INSERT INTO product (product_name, category, price) VALUES ('Футбольный мяч', 'Спорт', 20);
-INSERT INTO product (product_name, category, price) VALUES ('Баскетбольный мяч', 'Спорт', 25);
-INSERT INTO product (product_name, category, price) VALUES ('Беговая дорожка', 'Спорт', 500);
-INSERT INTO product (product_name, category, price) VALUES ('Велосипед', 'Спорт', 300);
-INSERT INTO product (product_name, category, price) VALUES ('Теннисная ракетка', 'Спорт', 60);
-INSERT INTO product (product_name, category, price) VALUES ('Гантели', 'Спорт', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Мяч для настольного тенниса', 'Спорт', 15);
-INSERT INTO product (product_name, category, price) VALUES ('Йога-коврик', 'Спорт', 20);
-INSERT INTO product (product_name, category, price) VALUES ('Роликовые коньки', 'Спорт', 70);
-INSERT INTO product (product_name, category, price) VALUES ('Боксерские перчатки', 'Спорт', 40);
-INSERT INTO product (product_name, category, price) VALUES ('Массажный мяч', 'Спорт', 10);
-INSERT INTO product (product_name, category, price) VALUES ('Ласты для плавания', 'Спорт', 30);
-INSERT INTO product (product_name, category, price) VALUES ('Тренажер для пресса', 'Спорт', 80);
-INSERT INTO product (product_name, category, price) VALUES ('Футбольные ворота', 'Спорт', 100);
-INSERT INTO product (product_name, category, price) VALUES ('Беговел', 'Спорт', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Спортивные очки', 'Спорт', 40);
-INSERT INTO product (product_name, category, price) VALUES ('Теннисный стол', 'Спорт', 150);
-INSERT INTO product (product_name, category, price) VALUES ('Велотренажер', 'Спорт', 200);
-INSERT INTO product (product_name, category, price) VALUES ('Футбольные бутсы', 'Спорт', 60);
-INSERT INTO product (product_name, category, price) VALUES ('Скакалка', 'Спорт', 15);
+INSERT INTO product (product_name, price) VALUES ('Ноутбук', 400);
+INSERT INTO product (product_name, price) VALUES ('Телевизор', 250);
+INSERT INTO product (product_name, price) VALUES ('Телефон', 300);
+INSERT INTO product (product_name, price) VALUES ('Системный блок', 1000);
+INSERT INTO product (product_name, price) VALUES ('Часы', 60);
+INSERT INTO product (product_name, price) VALUES ('Микрофон', 20);
 
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Война и мир"', 'Книги', 15);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Преступление и наказание"', 'Книги', 10);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Гарри Поттер и философский камень"', 'Книги', 12);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Гарри Поттер и узник Азкабана"', 'Книги', 14);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "1984"', 'Книги', 11);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Мастер и Маргарита"', 'Книги', 13);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Пикник на обочине"', 'Книги', 9);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Властелин колец"', 'Книги', 18);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Алхимик"', 'Книги', 8);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Тихий Дон"', 'Книги', 17);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Маленький принц"', 'Книги', 7);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Мастер и Маргарита"', 'Книги', 13);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Три товарища"', 'Книги', 16);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Идиот"', 'Книги', 11);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Метро 2033"', 'Книги', 10);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Мастер и Маргарита"', 'Книги', 13);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Анна Каренина"', 'Книги', 15);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Герой нашего времени"', 'Книги', 9);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Подросток"', 'Книги', 8);
-INSERT INTO product (product_name, category, price) VALUES ('Книга "Записки из подполья"', 'Книги', 12);
+INSERT INTO product (product_name, price) VALUES ('Наушники', 80);
+INSERT INTO product (product_name, price) VALUES ('Портативная зарядка', 50);
+INSERT INTO product (product_name, price) VALUES ('Фитнес-трекер', 120);
+INSERT INTO product (product_name, price) VALUES ('USB флешка', 25);
+INSERT INTO product (product_name, price) VALUES ('Клавиатура', 70);
+INSERT INTO product (product_name, price) VALUES ('Мышь', 40);
+INSERT INTO product (product_name, price) VALUES ('Wi-Fi маршрутизатор', 90);
+INSERT INTO product (product_name, price) VALUES ('Жесткий диск SSD', 150);
+INSERT INTO product (product_name, price) VALUES ('Компьютерная мышь', 30);
+INSERT INTO product (product_name, price) VALUES ('Bluetooth колонка', 70);
+INSERT INTO product (product_name, price) VALUES ('Принтер', 200);
+INSERT INTO product (product_name, price) VALUES ('HDMI кабель', 15);
+INSERT INTO product (product_name, price) VALUES ('Web-камера', 50);
+INSERT INTO product (product_name, price) VALUES ('Гарнитура', 90);
+INSERT INTO product (product_name, price) VALUES ('Мышка для гейминга', 100);
+INSERT INTO product (product_name, price) VALUES ('Термометр для кухни', 20);
+INSERT INTO product (product_name, price) VALUES ('Карта памяти SD', 35);
+INSERT INTO product (product_name, price) VALUES ('Наушники с микрофоном', 60);
+INSERT INTO product (product_name, price) VALUES ('Игровая консоль', 300);
+INSERT INTO product (product_name, price) VALUES ('Компьютерный монитор', 180);
 
-INSERT INTO product (product_name, category, price) VALUES ('Стиральная машина', 'Бытовая техника', 400);
-INSERT INTO product (product_name, category, price) VALUES ('Холодильник', 'Бытовая техника', 600);
-INSERT INTO product (product_name, category, price) VALUES ('Пылесос', 'Бытовая техника', 150);
-INSERT INTO product (product_name, category, price) VALUES ('Электрический чайник', 'Бытовая техника', 30);
-INSERT INTO product (product_name, category, price) VALUES ('Микроволновая печь', 'Бытовая техника', 100);
-INSERT INTO product (product_name, category, price) VALUES ('Утюг', 'Бытовая техника', 20);
-INSERT INTO product (product_name, category, price) VALUES ('Тостер', 'Бытовая техника', 25);
-INSERT INTO product (product_name, category, price) VALUES ('Кофеварка', 'Бытовая техника', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Блендер', 'Бытовая техника', 40);
-INSERT INTO product (product_name, category, price) VALUES ('Фен для волос', 'Бытовая техника', 15);
-INSERT INTO product (product_name, category, price) VALUES ('Утюжок для волос', 'Бытовая техника', 25);
-INSERT INTO product (product_name, category, price) VALUES ('Электробритва', 'Бытовая техника', 35);
-INSERT INTO product (product_name, category, price) VALUES ('Электрическая зубная щетка', 'Бытовая техника', 20);
-INSERT INTO product (product_name, category, price) VALUES ('Весы кухонные', 'Бытовая техника', 30);
-INSERT INTO product (product_name, category, price) VALUES ('Мясорубка', 'Бытовая техника', 50);
-INSERT INTO product (product_name, category, price) VALUES ('Соковыжималка', 'Бытовая техника', 40);
-INSERT INTO product (product_name, category, price) VALUES ('Кухонный комбайн', 'Бытовая техника', 100);
-INSERT INTO product (product_name, category, price) VALUES ('Мясорезка', 'Бытовая техника', 70);
-INSERT INTO product (product_name, category, price) VALUES ('Электрочайник', 'Бытовая техника', 25);
-INSERT INTO product (product_name, category, price) VALUES ('Фритюрница', 'Бытовая техника', 50);
+INSERT INTO product (product_name, price) VALUES ('Футбольный мяч',  20);
+INSERT INTO product (product_name, price) VALUES ('Баскетбольный мяч',  25);
+INSERT INTO product (product_name, price) VALUES ('Беговая дорожка',  500);
+INSERT INTO product (product_name, price) VALUES ('Велосипед',  300);
+INSERT INTO product (product_name, price) VALUES ('Теннисная ракетка',  60);
+INSERT INTO product (product_name, price) VALUES ('Гантели',  50);
+INSERT INTO product (product_name, price) VALUES ('Мяч для настольного тенниса',  15);
+INSERT INTO product (product_name, price) VALUES ('Йога-коврик',  20);
+INSERT INTO product (product_name, price) VALUES ('Роликовые коньки',  70);
+INSERT INTO product (product_name, price) VALUES ('Боксерские перчатки',  40);
+INSERT INTO product (product_name, price) VALUES ('Массажный мяч',  10);
+INSERT INTO product (product_name, price) VALUES ('Ласты для плавания',  30);
+INSERT INTO product (product_name, price) VALUES ('Тренажер для пресса',  80);
+INSERT INTO product (product_name, price) VALUES ('Футбольные ворота',  100);
+INSERT INTO product (product_name, price) VALUES ('Беговел',  50);
+INSERT INTO product (product_name, price) VALUES ('Спортивные очки',  40);
+INSERT INTO product (product_name, price) VALUES ('Теннисный стол',  150);
+INSERT INTO product (product_name, price) VALUES ('Велотренажер',  200);
+INSERT INTO product (product_name, price) VALUES ('Футбольные бутсы',  60);
+INSERT INTO product (product_name, price) VALUES ('Скакалка',  15);
 
-INSERT INTO product (product_name, category, price) VALUES ('Молоко', 'Еда', 2);
-INSERT INTO product (product_name, category, price) VALUES ('Хлеб', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Яйца', 'Еда', 3);
-INSERT INTO product (product_name, category, price) VALUES ('Масло сливочное', 'Еда', 2);
-INSERT INTO product (product_name, category, price) VALUES ('Сахар', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Мука', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Рис', 'Еда', 2);
-INSERT INTO product (product_name, category, price) VALUES ('Макароны', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Картофель', 'Еда', 0);
-INSERT INTO product (product_name, category, price) VALUES ('Морковь', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Огурцы', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Помидоры', 'Еда', 1);
-INSERT INTO product (product_name, category, price) VALUES ('Курица', 'Еда', 4);
-INSERT INTO product (product_name, category, price) VALUES ('Говядина', 'Еда', 6);
-INSERT INTO product (product_name, category, price) VALUES ('Свинина', 'Еда', 5);
-INSERT INTO product (product_name, category, price) VALUES ('Рыба', 'Еда', 7);
-INSERT INTO product (product_name, category, price) VALUES ('Сыр', 'Еда', 3);
-INSERT INTO product (product_name, category, price) VALUES ('Колбаса', 'Еда', 4);
-INSERT INTO product (product_name, category, price) VALUES ('Сок', 'Еда', 2);
-INSERT INTO product (product_name, category, price) VALUES ('Чай', 'Еда', 1);
+INSERT INTO product (product_name, price) VALUES ('Книга "Война и мир"',  15);
+INSERT INTO product (product_name, price) VALUES ('Книга "Преступление и наказание"',  10);
+INSERT INTO product (product_name, price) VALUES ('Книга "Гарри Поттер и философский камень"',  12);
+INSERT INTO product (product_name, price) VALUES ('Книга "Гарри Поттер и узник Азкабана"',  14);
+INSERT INTO product (product_name, price) VALUES ('Книга "1984"',  11);
+INSERT INTO product (product_name, price) VALUES ('Книга "Мастер и Маргарита"',  13);
+INSERT INTO product (product_name, price) VALUES ('Книга "Пикник на обочине"',  9);
+INSERT INTO product (product_name, price) VALUES ('Книга "Властелин колец"',  18);
+INSERT INTO product (product_name, price) VALUES ('Книга "Алхимик"',  8);
+INSERT INTO product (product_name, price) VALUES ('Книга "Тихий Дон"',  17);
+INSERT INTO product (product_name, price) VALUES ('Книга "Маленький принц"',  7);
+INSERT INTO product (product_name, price) VALUES ('Книга "Мастер и Маргарита"',  13);
+INSERT INTO product (product_name, price) VALUES ('Книга "Три товарища"',  16);
+INSERT INTO product (product_name, price) VALUES ('Книга "Идиот"',  11);
+INSERT INTO product (product_name, price) VALUES ('Книга "Метро 2033"',  10);
+INSERT INTO product (product_name, price) VALUES ('Книга "Мастер и Маргарита"',  13);
+INSERT INTO product (product_name, price) VALUES ('Книга "Анна Каренина"',  15);
+INSERT INTO product (product_name, price) VALUES ('Книга "Герой нашего времени"',  9);
+INSERT INTO product (product_name, price) VALUES ('Книга "Подросток"',  8);
+INSERT INTO product (product_name, price) VALUES ('Книга "Записки из подполья"',  12);
+
+INSERT INTO product (product_name, price) VALUES ('Стиральная машина',  400);
+INSERT INTO product (product_name, price) VALUES ('Холодильник',  600);
+INSERT INTO product (product_name, price) VALUES ('Пылесос',  150);
+INSERT INTO product (product_name, price) VALUES ('Электрический чайник',  30);
+INSERT INTO product (product_name, price) VALUES ('Микроволновая печь',  100);
+INSERT INTO product (product_name, price) VALUES ('Утюг',  20);
+INSERT INTO product (product_name, price) VALUES ('Тостер',  25);
+INSERT INTO product (product_name, price) VALUES ('Кофеварка',  50);
+INSERT INTO product (product_name, price) VALUES ('Блендер',  40);
+INSERT INTO product (product_name, price) VALUES ('Фен для волос',  15);
+INSERT INTO product (product_name, price) VALUES ('Утюжок для волос',  25);
+INSERT INTO product (product_name, price) VALUES ('Электробритва',  35);
+INSERT INTO product (product_name, price) VALUES ('Электрическая зубная щетка',  20);
+INSERT INTO product (product_name, price) VALUES ('Весы кухонные',  30);
+INSERT INTO product (product_name, price) VALUES ('Мясорубка',  50);
+INSERT INTO product (product_name, price) VALUES ('Соковыжималка',  40);
+INSERT INTO product (product_name, price) VALUES ('Кухонный комбайн',  100);
+INSERT INTO product (product_name, price) VALUES ('Мясорезка',  70);
+INSERT INTO product (product_name, price) VALUES ('Электрочайник',  25);
+INSERT INTO product (product_name, price) VALUES ('Фритюрница',  50);
+
+INSERT INTO product (product_name, price) VALUES ('Молоко', 2);
+INSERT INTO product (product_name, price) VALUES ('Хлеб', 1);
+INSERT INTO product (product_name, price) VALUES ('Яйца', 3);
+INSERT INTO product (product_name, price) VALUES ('Масло сливочное', 2);
+INSERT INTO product (product_name, price) VALUES ('Сахар', 1);
+INSERT INTO product (product_name, price) VALUES ('Мука', 1);
+INSERT INTO product (product_name, price) VALUES ('Рис', 2);
+INSERT INTO product (product_name, price) VALUES ('Макароны', 1);
+INSERT INTO product (product_name, price) VALUES ('Картофель', 0);
+INSERT INTO product (product_name, price) VALUES ('Морковь', 1);
+INSERT INTO product (product_name, price) VALUES ('Огурцы', 1);
+INSERT INTO product (product_name, price) VALUES ('Помидоры', 1);
+INSERT INTO product (product_name, price) VALUES ('Курица', 4);
+INSERT INTO product (product_name, price) VALUES ('Говядина', 6);
+INSERT INTO product (product_name, price) VALUES ('Свинина', 5);
+INSERT INTO product (product_name, price) VALUES ('Рыба', 7);
+INSERT INTO product (product_name, price) VALUES ('Сыр', 3);
+INSERT INTO product (product_name, price) VALUES ('Колбаса', 4);
+INSERT INTO product (product_name, price) VALUES ('Сок', 2);
+INSERT INTO product (product_name, price) VALUES ('Чай', 1);
+
+--shelf
+
+INSERT INTO shelf (shelf_name) VALUES 
+('A'), ('Б'), ('В'), ('Г'), ('Д'), ('Е'), ('Ё'), ('Ж'), ('З'), ('И'), ('Й'), 
+('К'), ('Л'), ('М'), ('Н'), ('О'), ('П'), ('Р'), ('С'), ('Т'), ('У'), 
+('Ф'), ('Х'), ('Ц'), ('Ч'), ('Ш'), ('Щ'), ('Ъ'), ('Ы'), ('Ь'), ('Э'), 
+('Ю'), ('Я');
 
 
+-- Для стеллажа А
+INSERT INTO productShelf (product_id, shelf_id, is_main, quantity) 
+VALUES 
+(1, 1, TRUE, 2),  -- Ноутбук, заказ 10, 2 шт
+(2, 1, TRUE, 3),  -- Телевизор, заказ 11, 3 шт
+(1, 1, FALSE, 3), -- Ноутбук, заказ 14, 3 шт
+
+-- Для стеллажа Б
+(3, 2, TRUE, 1),  -- Телефон, заказ 10, 1 шт
+
+-- Дополнительные стеллажи для Телефона (стеллажи З и В)
+(3, 26, FALSE, 1), -- Телефон, заказ 10, 1 шт, доп стеллаж З
+(3, 27, FALSE, 1), -- Телефон, заказ 10, 1 шт, доп стеллаж В
+
+-- Для стеллажа Ж
+(4, 29, TRUE, 4),  -- Системный блок, заказ 14, 4 шт
+(5, 29, FALSE, 1), -- Часы, заказ 15, 1 шт, доп стеллаж А
+
+-- Для стеллажа А
+(6, 30, TRUE, 1);  -- Микрофон, заказ 10, 1 шт
